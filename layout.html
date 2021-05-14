@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+    <head>
+        <title>sample</title>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <script src="https://kit.fontawesome.com/44a6058e92.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: aqua;
+            }
+            .head{
+                text-align: center;
+                background-color: white;
+                padding: 50px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            .nav{
+                background-color: #333;
+                padding: 20px;
+                padding-left: 2px;
+                position: sticky;
+                top:0;
+            }
+            a{
+                box-sizing: border-box;
+                text-decoration: none;
+                color: white;
+                padding:20px;    
+            }
+            .nav a:hover{
+                background-color: black;
+                color: white;
+            }
+            .container{
+                display: inline-block;
+                position: relative;
+            }
+            .container a{
+                color:white;
+            }
+            .dropdown{
+                position: absolute;
+                display: none;
+                background-color: lightblue;
+                margin-top: 20px; 
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            .dropdown a{
+                color:black;
+                display: block;
+            }
+            .dropdown a:hover{
+                background-color: black;
+                color: white;
+            }
+            .container:hover .dropdown{
+                display: block;
+            }
+            .box1{
+                background-color: white;
+                width: 60%;
+                height: 1300px;
+                padding-top: 20px;
+                float: left;  
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            .box1 h3{
+                padding-left: 50px;
+                padding-top: 20px;
+            }
+            .box1 p{
+                font-size: small;
+                padding-left: 50px;
+            }
+            .image{
+                padding-left: 50px;
+            }
+            .para{
+                text-align: justify;
+                word-spacing: 10px;
+                margin-left: 0;
+                line-height: 2;
+                padding-top: 30px;
+            }
+            .box2{
+                float: left;
+                width: 37%;
+                height: 400px;
+                background: white;
+                margin-left: 38px;           
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                margin-top: 30px;
+            }
+            .box2 h3{
+                padding-left: 20px;
+                margin-top: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .box3{
+                float: left;
+                width: 37%;
+                height: 400px;
+                background-color: white;
+                margin-left: 38px;
+                margin-top: 30px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            .box3 h3{
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 20px;
+                margin-top: 50px;
+            }
+            .box3 img{
+                display: block;
+            }
+            .box4{
+                float: left;
+                width: 37%;
+                height: 400px;
+                background: white;
+                margin-left: 38px;           
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                margin-top: 30px;
+            }
+            .box4 h3{
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 20px;
+                margin-top: 50px;
+             }
+             .link{
+                 padding-top: 5px;
+                 padding-left: 50px;
+             }
+             .insta{
+                 margin-left: 30px;
+             }
+             .foo{
+                 float: left;
+                 clear: both;
+                 height: 100px;
+                 width: 100%;
+                 background-color: white;
+                 margin-top: 20px;
+                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+             }
+             .foo h3{
+                 text-align: center;
+                 font-family: Arial, Helvetica, sans-serif;
+             }
+             
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <header>
+                <h1>My WebSite</h1>
+                <p>Resize the browser window to see the effect</p>
+            </header>
+        </div>
+        <div class="nav">
+            <a href="link.html" target="_self">Link1</a>
+            <a href="link.html" target="_self">Link2</a>
+            <a href="link.html" target="_self">Link3</a>
+            <div class="container">
+            <a href="link.html" target="_self">Link4</a>
+                <div class="dropdown">
+                    <a href="link.html" target="_self">Link1</a>
+                    <a href="link.html" target="_self">Link2</a>
+                    <a href="link.html" target="_self">Link3</a>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <h3>TITLE HEADING</h3>
+            <p>Title description, Dec 7, 2017</p>
+            <div class="image">
+            <img src="http://www.gieldaklasykow.pl/wp-content/uploads/2015/04/toyota-supra-szybcy-wsciekli-05.jpg" title="supra" height="400px" width="600px" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+            </div>
+            <p class="para">
+                The Toyota Supra price in India could be priced in the range of Rs 70-75 Lakhs for the<br> base variant, while the flagship A91 edition could be priced around Rs 85-95 Lakhs. Here<br> is a quick insight of the specifications and key features of the GR Supra 3.0 Variant.
+            </p>
+            <h3>TITLE HEADING</h3>
+            <p>Title description, Dec 7, 2017</p>
+            <div class="image">
+            <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/mustagn-2260.jpg" title="Gt" height="400px" width="600px" style="box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);">
+            </div>
+            <p class="para">
+                The Toyota Supra price in India could be priced in the range of Rs 70-75 Lakhs for the<br> base variant, while the flagship A91 edition could be priced around Rs 85-95 Lakhs. Here<br> is a quick insight of the specifications and key features of the GR Supra 3.0 Variant.
+            </p>
+        </div>
+        <div class="box2">
+            <h3>About Me</h3>  
+        </div>
+        <div class="box3">
+            <h3>Popular post</h3>
+            <img src="">
+            <img src="">
+            <img src="">
+        </div>
+        <div class="box4">
+            <h3>Follow me on</h3>
+            <div class="insta">
+                <a href="https://www.instagram.com/accounts/login/">
+                <img src="https://www.freepngimg.com/download/logo/69768-logo-computer-layout-instagram-icons-png-file-hd.png" height="40px" width="40px">
+                </a>
+            </div>      
+        </div>
+        <footer class="foo">
+        <h3>Footer</h3>
+        </footer>
+
+    </body>
+</html>
